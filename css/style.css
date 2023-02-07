@@ -23,6 +23,7 @@ img {
   --footer-text-color: #e7e9fc;
   --topline-bg-color: #e7e9fc;
   --filter-hover-color: #e7e9fc;
+  --border-card-portfolio-color: #e7e9fc;
 }
 
 .visually-hidden {
@@ -382,6 +383,10 @@ img {
 
 /* ============= Portfolio list ============= */
 
+.portfolio {
+  padding-bottom: 120px;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -424,5 +429,8 @@ img {
 .card-window {
   padding-top: 32px;
   padding-bottom: 32px;
-  align-items: left;
+  padding-left: 16px;
+
+  border: 1px solid var(--border-card-portfolio-color);
+  border-top: none;
 }
