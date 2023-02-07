@@ -22,6 +22,7 @@ img {
   --team-section-color: #f4f4fd;
   --footer-text-color: #e7e9fc;
   --topline-bg-color: #e7e9fc;
+  --filter-hover-color: #e7e9fc;
 }
 
 .visually-hidden {
@@ -359,6 +360,11 @@ img {
   letter-spacing: 0.04em;
 
   cursor: pointer;
+}
+
+.filter-btn:hover {
+  background-color: var(--filter-hover-color);
+  color: var(--secondary-text-color);
 }
 
 .filter-item > .filter-btn.all-ftrs {
