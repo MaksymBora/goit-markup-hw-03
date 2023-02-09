@@ -410,6 +410,8 @@ img {
 .card-window > .types {
   margin-top: 0;
   margin-bottom: 0;
+
+  color: var(--primary-text-color);
 }
 
 .portfolio-item > .card {
@@ -422,8 +424,4 @@ img {
 
   border: 1px solid var(--border-card-portfolio-color);
   border-top: none;
-}
-
-.card-window > .types {
-  color: var(--primary-text-color);
 }
