@@ -173,7 +173,6 @@ img {
   padding-left: 5px;
 
   color: var(--btn-hero-color);
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -191,13 +190,13 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
 
   cursor: pointer;
 }
 
-.btn-hero:hover {
+.btn-hero:hover,
+.btn-hero:focus {
   background-color: var(--btn-hover-color);
 }
 
@@ -229,10 +228,11 @@ img {
   margin-bottom: 0;
 }
 
-.item-title {
+.section-item > .item-title {
   margin-top: 0;
   margin-bottom: 8px;
 
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -245,7 +245,6 @@ img {
   margin-top: 0;
   margin-bottom: 72px;
   color: var(--secondary-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -365,21 +364,12 @@ img {
 }
 
 .filter-btn:hover {
-  background-color: var(--filter-hover-color);
-  color: var(--secondary-text-color);
-}
-
-.filter-item > .filter-btn.all-ftrs {
-  background-color: var(--items-active-color);
+  background-color: var(--btn-bg-color);
   color: var(--btn-hero-color);
 }
 
 .filter-list > .filter-item:not(:last-child) {
   margin-right: 24px;
-}
-
-.filter-btn.all-ftrs:hover {
-  background-color: var(--btn-bg-color);
 }
 
 /* ============= Portfolio list ============= */
