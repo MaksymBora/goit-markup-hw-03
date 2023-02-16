@@ -337,17 +337,11 @@ img {
 
 /* ================= Filter ===================*/
 
-.filter-main {
-  padding-top: 96px;
-  padding-bottom: 72px;
-  margin-bottom: 7px;
-}
-
 .filter-list {
   display: flex;
   justify-content: center;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 72px;
   padding-left: 0;
   list-style: none;
 }
@@ -380,7 +374,8 @@ img {
 
 /* ============= Portfolio list ============= */
 
-.portfolio {
+.main-section {
+  padding-top: 97px;
   padding-bottom: 120px;
 }
 
@@ -398,9 +393,8 @@ img {
   flex-basis: calc((100% - 48px) / 3);
 }
 
-.card-window {
+.card > .card-window {
   padding: 32px 16px;
-
   border: 1px solid var(--border-card-portfolio-color);
   border-top: none;
 }
