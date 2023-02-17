@@ -103,15 +103,18 @@ img {
   text-decoration: none;
 }
 
-.menu-item .menu-link:active,
-.menu-item .menu-link:focus,
-.contacts-link:active,
-.contacts-link:focus {
+.menu .menu-link:hover,
+.menu .menu-link:focus {
   color: var(--logo-color);
 }
 
-.menu .menu-link:hover,
-.contacts-link:hover {
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--logo-color);
+}
+
+.contact-link:active,
+.menu .menu-link:active {
   color: var(--logo-color);
 }
 
